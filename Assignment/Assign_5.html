@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my page</title>
+        <style>
+            body{
+                margin: 0;
+                background-image: url(https://cdn.pixabay.com/photo/2018/03/02/19/21/nature-3194001_1280.jpg);
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            section{
+                text-align: center;
+                margin-top: 70px;
+                color: white;
+            }
+            section div{
+                display: inline-block;
+                vertical-align: top;
+                /* margin: 0 -5x; */
+            }
+            #d1{
+                height: 300px;
+                width: 250px;
+                overflow: hidden;
+                siz
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div id="d1">
+                <img src="https://images.pexels.com/photos/6177607/pexels-photo-6177607.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            </div>
+            <div id="d2">
+                <h2>Cereate Account</h2>
+                <form action="">
+                    <input type="text" pattern="[a-zA-Z]+" maxlength="50" placeholder="Full Name" required/>
+                    <br>
+                    <br>
+                    <input type="email" placeholder="Email Address" required/>
+                    <br><br>
+                    <input type="tel" pattern="[0-9]+" minlength="10"  placeholder="Phone" required/>
+                    <br><br>
+                    <input type="password" minlength="6" maxlength="20" placeholder="Password" required/>
+                    <br><br>
+                    <input type="password" minlength="6" maxlength="20" placeholder="Confirm Password" required/>
+                    <br><br>
+                    <button>SignUp Now</button>
+                    <a href="">I have an account</a>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
