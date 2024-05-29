@@ -1,0 +1,11 @@
+.div{
+    background-color: aqua;
+    /* transform: translate(10px,20px); */
+    /* transform: rotate(-45deg); */
+    margin: 200px;
+    transform: scale(2,5);
+
+    /* transform: skew(-45deg); */
+
+    transform: matrix(20px);
+}
